@@ -1,0 +1,138 @@
+//
+// Hershey Font: futuram 
+//
+// USE RESTRICTION:
+//    This distribution of the Hershey Fonts may be used by anyone for
+//    any purpose, commercial or otherwise, providing that:
+//
+//        1. The following acknowledgements must be distributed with the font data:
+//
+//            - The Hershey Fonts were originally created by Dr.
+//                A. V. Hershey while working at the U. S. National Bureau of Standards.
+//            - The format of the Font data in this distribution was originally created by
+//                James Hurt, Cognition, Inc., 900 Technology Park Drive, Billerica, MA 01821,
+//               (mit-eddie!ci-dandelion!hurt)
+//
+//        2. The font data in this distribution may be converted into
+//            any other format *EXCEPT* the format distributed by
+//            the U.S. NTIS (which organization holds the rights
+//            to the distribution and use of the font data in that
+//            particular format). Not that anybody would really
+//            *want* to use their format... each point is described
+//            in eight bytes as "xxx yyy:", where xxx and yyy are
+//            the coordinate values as ASCII numbers.
+//
+
+const char glyph032[] PROGMEM = "\x00" "JZ";
+const char glyph033[] PROGMEM = "\x17" "MXRFRTST RRFSFST RRXQYQZR[S[TZTYSXRX RRYRZSZSYRY";
+const char glyph034[] PROGMEM = "\x15" "I[NFMGMM RNGMM RNFOGMM RWFVGVM RWGVM RWFXGVM";
+const char glyph035[] PROGMEM = "\x0b" "H]SBLb RYBRb RLOZO RKUYU";
+const char glyph036[] PROGMEM = "\x32" "I\\RBR_S_ RRBSBS_ RWIYIWGTFQFNGLILKMMNNVRWSXUXWWYTZQZOYNX RWIVHTGQGNHMIMKNMVQXSYUYWXYWZT[Q[NZLXNX RXXUZ";
+const char glyph037[] PROGMEM = "\x1f" "F^[FI[ RNFPHPJOLMMKMIKIIJGLFNFPGSHVHYG[F RWTUUTWTYV[X[ZZ[X[VYTWT";
+const char glyph038[] PROGMEM = "\x30" "F_[NZO[P\\O\\N[MZMYNXPVUTXRZP[M[JZIXIUJSPORMSKSIRGPFNGMIMKNNPQUXWZZ[[[\\Z\\Y RM[KZJXJUKSMQ RMKNMVXXZZ[";
+const char glyph039[] PROGMEM = "\x0a" "NWSFRGRM RSGRM RSFTGRM";
+const char glyph040[] PROGMEM = "\x13" "KYVBTDRGPKOPOTPYR]T`Vb RTDRHQKPPPTQYR\\T`";
+const char glyph041[] PROGMEM = "\x13" "KYNBPDRGTKUPUTTYR]P`Nb RPDRHSKTPTTSYR\\P`";
+const char glyph042[] PROGMEM = "\x26" "JZRFQGSQRR RRFRR RRFSGQQRR RMINIVOWO RMIWO RMIMJWNWO RWIVINOMO RWIMO RWIWJMNMO";
+const char glyph043[] PROGMEM = "\x0f" "F_RIRZSZ RRISISZ RJQ[Q[R RJQJR[R";
+const char glyph044[] PROGMEM = "\x17" "MXTZS[R[QZQYRXSXTYT\\S^Q_ RRYRZSZSYRY RS[T\\ RTZS^";
+const char glyph045[] PROGMEM = "\x02" "E_IR[R";
+const char glyph046[] PROGMEM = "\x0f" "MXRXQYQZR[S[TZTYSXRX RRYRZSZSYRY";
+const char glyph047[] PROGMEM = "\x07" "G^[BIbJb R[B\\BJb";
+const char glyph048[] PROGMEM = "\x29" "H\\QFNGLJKOKRLWNZQ[S[VZXWYRYOXJVGSFQF ROGMJLOLRMWOZ RNYQZSZVY RUZWWXRXOWJUG RVHSGQGNH";
+const char glyph049[] PROGMEM = "\x0b" "H\\NJPISFS[ RNJNKPJRHR[S[";
+const char glyph050[] PROGMEM = "\x21" "H\\LKLJMHNGPFTFVGWHXJXLWNUQL[ RLKMKMJNHPGTGVHWJWLVNTQK[ RLZYZY[ RK[Y[";
+const char glyph051[] PROGMEM = "\x2f" "H\\MFXFQO RMFMGWG RWFPO RQNSNVOXQYTYUXXVZS[P[MZLYKWLW RPOSOVPXS RTOWQXTXUWXTZ RXVVYSZPZMYLW ROZLX";
+const char glyph052[] PROGMEM = "\x11" "H\\UIU[V[ RVFV[ RVFKVZV RUILV RLUZUZV";
+const char glyph053[] PROGMEM = "\x34" "H\\MFLO RNGMN RMFWFWG RNGWG RMNPMSMVNXPYSYUXXVZS[P[MZLYKWLW RLOMOONSNVOXR RTNWPXSXUWXTZ RXVVYSZPZMYLW ROZLX";
+const char glyph054[] PROGMEM = "\x3d" "H\\VGWIXIWGTFRFOGMJLOLTMXOZR[S[VZXXYUYTXQVOSNRNOOMQ RWHTGRGOH RPGNJMOMTNXQZ RMVOYRZSZVYXV RTZWXXUXTWQTO RXSVPSOROOPMS RQONQMT";
+const char glyph055[] PROGMEM = "\x0b" "H\\KFYFO[ RKFKGXG RXFN[O[";
+const char glyph056[] PROGMEM = "\x43" "H\\PFMGLILKMMNNPOTPVQWRXTXWWYTZPZMYLWLTMRNQPPTOVNWMXKXIWGTFPF RNGMIMKNMPNTOVPXRYTYWXYWZT[P[MZLYKWKTLRNPPOTNVMWKWIVG RWHTGPGMH RLXOZ RUZXX";
+const char glyph057[] PROGMEM = "\x3d" "H\\WPURRSQSNRLPKMKLLINGQFRFUGWIXMXRWWUZR[P[MZLXMXNZ RWMVPSR RWNUQRRQRNQLN RPRMPLMLLMIPG RLKNHQGRGUHWK RSGVIWMWRVWTZ RUYRZPZMY";
+const char glyph058[] PROGMEM = "\x1f" "MXRMQNQORPSPTOTNSMRM RRNROSOSNRN RRXQYQZR[S[TZTYSXRX RRYRZSZSYRY";
+const char glyph059[] PROGMEM = "\x27" "MXRMQNQORPSPTOTNSMRM RRNROSOSNRN RTZS[R[QZQYRXSXTYT\\S^Q_ RRYRZSZSYRY RS[T\\ RTZS^";
+const char glyph060[] PROGMEM = "\x03" "F^ZIJRZ[";
+const char glyph061[] PROGMEM = "\x0f" "F_JM[M[N RJMJN[N RJU[U[V RJUJV[V";
+const char glyph062[] PROGMEM = "\x03" "F^JIZRJ[";
+const char glyph063[] PROGMEM = "\x39" "I\\LKLJMHNGQFTFWGXHYJYLXNWOUPRQ RLKMKMJNHQGTGWHXJXLWNUORP RMIPG RUGXI RXMTP RRPRTSTSP RRXQYQZR[S[TZTYSXRX RRYRZSZSYRY";
+const char glyph064[] PROGMEM = "\x37" "E`WNVLTKQKOLNMMPMSNUPVSVUUVS RQKOMNPNSOUPV RWKVSVUXVZV\\T]Q]O\\L[JYHWGTFQFNGLHJJILHOHRIUJWLYNZQ[T[WZYYZX RXKWSWUXV";
+const char glyph065[] PROGMEM = "\x13" "H\\RFJ[ RRIK[J[ RRIY[Z[ RRFZ[ RMUWU RLVXV";
+const char glyph066[] PROGMEM = "\x2b" "H\\LFL[ RMGMZ RLFTFWGXHYJYMXOWPTQ RMGTGWHXJXMWOTP RMPTPWQXRYTYWXYWZT[L[ RMQTQWRXTXWWYTZMZ";
+const char glyph067[] PROGMEM = "\x25" "H]ZKYIWGUFQFOGMILKKNKSLVMXOZQ[U[WZYXZV RZKYKXIWHUGQGOHMKLNLSMVOYQZUZWYXXYVZV";
+const char glyph068[] PROGMEM = "\x1f" "H]LFL[ RMGMZ RLFSFVGXIYKZNZSYVXXVZS[L[ RMGSGVHWIXKYNYSXVWXVYSZMZ";
+const char glyph069[] PROGMEM = "\x1a" "I\\MFM[ RNGNZ RMFYF RNGYGYF RNPTPTQ RNQTQ RNZYZY[ RM[Y[";
+const char glyph070[] PROGMEM = "\x14" "I[MFM[ RNGN[M[ RMFYF RNGYGYF RNPTPTQ RNQTQ";
+const char glyph071[] PROGMEM = "\x2b" "H]ZKYIWGUFQFOGMILKKNKSLVMXOZQ[U[WZYXZVZRUR RZKYKXIWHUGQGOHNIMKLNLSMVNXOYQZUZWYXXYVYSUSUR";
+const char glyph072[] PROGMEM = "\x15" "G]KFK[ RKFLFL[K[ RYFXFX[Y[ RYFY[ RLPXP RLQXQ";
+const char glyph073[] PROGMEM = "\x07" "NWRFR[S[ RRFSFS[";
+const char glyph074[] PROGMEM = "\x13" "J[VFVVUYSZQZOYNVMV RVFWFWVVYUZS[Q[OZNYMV";
+const char glyph075[] PROGMEM = "\x15" "H]LFL[M[ RLFMFM[ RZFYFMR RZFMS RPOY[Z[ RQOZ[";
+const char glyph076[] PROGMEM = "\x0d" "IZMFM[ RMFNFNZ RNZYZY[ RM[Y[";
+const char glyph077[] PROGMEM = "\x19" "F^JFJ[ RKKK[J[ RKKR[ RJFRX RZFRX RYKR[ RYKY[Z[ RZFZ[";
+const char glyph078[] PROGMEM = "\x13" "G]KFK[ RLIL[K[ RLIY[ RKFXX RXFXX RXFYFY[";
+const char glyph079[] PROGMEM = "\x27" "G]PFNGLIKKJNJSKVLXNZP[T[VZXXYVZSZNYKXIVGTFPF RQGNHLKKNKSLVNYQZSZVYXVYSYNXKVHSGQG";
+const char glyph080[] PROGMEM = "\x1a" "H\\LFL[ RMGM[L[ RLFUFWGXHYJYMXOWPUQMQ RMGUGWHXJXMWOUPMP";
+const char glyph081[] PROGMEM = "\x2f" "G]PFNGLIKKJNJSKVLXNZP[T[VZXXYVZSZNYKXIVGTFPF RQGNHLKKNKSLVNYQZSZVYXVYSYNXKVHSGQG RSXX]Y] RSXTXY]";
+const char glyph082[] PROGMEM = "\x21" "H\\LFL[ RMGM[L[ RLFTFWGXHYJYMXOWPTQMQ RMGTGWHXJXMWOTPMP RRQX[Y[ RSQY[";
+const char glyph083[] PROGMEM = "\x2a" "H\\YIWGTFPFMGKIKKLMMNOOTQVRWSXUXXWYTZPZNYMXKX RYIWIVHTGPGMHLILKMMONTPVQXSYUYXWZT[P[MZKX";
+const char glyph084[] PROGMEM = "\x0e" "J[RGR[ RSGS[R[ RLFYFYG RLFLGYG";
+const char glyph085[] PROGMEM = "\x17" "G]KFKULXNZQ[S[VZXXYUYF RKFLFLUMXNYQZSZVYWXXUXFYF";
+const char glyph086[] PROGMEM = "\x0d" "H\\JFR[ RJFKFRX RZFYFRX RZFR[";
+const char glyph087[] PROGMEM = "\x19" "E_GFM[ RGFHFMX RRFMX RRIM[ RRIW[ RRFWX R]F\\FWX R]FW[";
+const char glyph088[] PROGMEM = "\x0f" "H\\KFX[Y[ RKFLFY[ RYFXFK[ RYFL[K[";
+const char glyph089[] PROGMEM = "\x10" "I\\KFRPR[S[ RKFLFSP RZFYFRP RZFSPS[";
+const char glyph090[] PROGMEM = "\x13" "H\\XFK[ RYFL[ RKFYF RKFKGXG RLZYZY[ RK[Y[";
+const char glyph091[] PROGMEM = "\x0b" "KYOBOb RPBPb ROBVB RObVb";
+const char glyph092[] PROGMEM = "\x02" "KYKFY^";
+const char glyph093[] PROGMEM = "\x0b" "KYTBTb RUBUb RNBUB RNbUb";
+const char glyph094[] PROGMEM = "\x07" "G]JTROZT RJTRPZT";
+const char glyph095[] PROGMEM = "\x02" "H\\Hb\\b";
+const char glyph096[] PROGMEM = "\x06" "LXPFUL RPFOGUL";
+const char glyph097[] PROGMEM = "\x23" "H\\WMW[X[ RWMXMX[ RWPUNSMPMNNLPKSKULXNZP[S[UZWX RWPSNPNNOMPLSLUMXNYPZSZWX";
+const char glyph098[] PROGMEM = "\x23" "H\\LFL[M[ RLFMFM[ RMPONQMTMVNXPYSYUXXVZT[Q[OZMX RMPQNTNVOWPXSXUWXVYTZQZMX";
+const char glyph099[] PROGMEM = "\x1f" "I[XPVNTMQMONMPLSLUMXOZQ[T[VZXX RXPWQVOTNQNOONPMSMUNXOYQZTZVYWWXX";
+const char glyph100[] PROGMEM = "\x23" "H\\WFW[X[ RWFXFX[ RWPUNSMPMNNLPKSKULXNZP[S[UZWX RWPSNPNNOMPLSLUMXNYPZSZWX";
+const char glyph101[] PROGMEM = "\x23" "I[MTXTXQWOVNTMQMONMPLSLUMXOZQ[T[VZXX RMSWSWQVOTNQNOONPMSMUNXOYQZTZVYWWXX";
+const char glyph102[] PROGMEM = "\x17" "LZWFUFSGRJR[S[ RWFWGUGSH RTGSJS[ ROMVMVN ROMONVN";
+const char glyph103[] PROGMEM = "\x2f" "H\\XMWMW\\V_U`SaQaO`N_L_ RXMX\\W_UaSbPbNaL_ RWPUNSMPMNNLPKSKULXNZP[S[UZWX RWPSNPNNOMPLSLUMXNYPZSZWX";
+const char glyph104[] PROGMEM = "\x18" "H\\LFL[M[ RLFMFM[ RMQPNRMUMWNXQX[ RMQPORNTNVOWQW[X[";
+const char glyph105[] PROGMEM = "\x17" "NWRFQGQHRISITHTGSFRF RRGRHSHSGRG RRMR[S[ RRMSMS[";
+const char glyph106[] PROGMEM = "\x17" "NWRFQGQHRISITHTGSFRF RRGRHSHSGRG RRMRbSb RRMSMSb";
+const char glyph107[] PROGMEM = "\x15" "H[LFL[M[ RLFMFM[ RXMWMMW RXMMX RPTV[X[ RQSX[";
+const char glyph108[] PROGMEM = "\x07" "NWRFR[S[ RRFSFS[";
+const char glyph109[] PROGMEM = "\x29" "CbGMG[H[ RGMHMH[ RHQKNMMPMRNSQS[ RHQKOMNONQORQR[S[ RSQVNXM[M]N^Q^[ RSQVOXNZN\\O]Q][^[";
+const char glyph110[] PROGMEM = "\x18" "H\\LML[M[ RLMMMM[ RMQPNRMUMWNXQX[ RMQPORNTNVOWQW[X[";
+const char glyph111[] PROGMEM = "\x23" "I\\QMONMPLSLUMXOZQ[T[VZXXYUYSXPVNTMQM RQNOONPMSMUNXOYQZTZVYWXXUXSWPVOTNQN";
+const char glyph112[] PROGMEM = "\x23" "H\\LMLbMb RLMMMMb RMPONQMTMVNXPYSYUXXVZT[Q[OZMX RMPQNTNVOWPXSXUWXVYTZQZMX";
+const char glyph113[] PROGMEM = "\x23" "H\\WMWbXb RWMXMXb RWPUNSMPMNNLPKSKULXNZP[S[UZWX RWPSNPNNOMPLSLUMXNYPZSZWX";
+const char glyph114[] PROGMEM = "\x14" "KYOMO[P[ ROMPMP[ RPSQPSNUMXM RPSQQSOUNXNXM";
+const char glyph115[] PROGMEM = "\x31" "J[XPWNTMQMNNMPNRPSUUWV RVUWWWXVZ RWYTZQZNY ROZNXMX RXPWPVN RWOTNQNNO RONNPOR RNQPRUTWUXWXXWZT[Q[NZMX";
+const char glyph116[] PROGMEM = "\x0f" "MXRFR[S[ RRFSFS[ ROMVMVN ROMONVN";
+const char glyph117[] PROGMEM = "\x18" "H\\LMLWMZO[R[TZWW RLMMMMWNYPZRZTYWW RWMW[X[ RWMXMX[";
+const char glyph118[] PROGMEM = "\x0d" "JZLMR[ RLMMMRY RXMWMRY RXMR[";
+const char glyph119[] PROGMEM = "\x19" "F^IMN[ RIMJMNX RRMNX RRPN[ RRPV[ RRMVX R[MZMVX R[MV[";
+const char glyph120[] PROGMEM = "\x0f" "I[LMW[X[ RLMMMX[ RXMWML[ RXMM[L[";
+const char glyph121[] PROGMEM = "\x10" "JZLMR[ RLMMMRY RXMWMRYNb RXMR[ObNb";
+const char glyph122[] PROGMEM = "\x13" "I[VNL[ RXMNZ RLMXM RLMLNVN RNZXZX[ RL[X[";
+const char glyph123[] PROGMEM = "\x03" "KYUBNRUb";
+const char glyph124[] PROGMEM = "\x02" "NVRBRb";
+const char glyph125[] PROGMEM = "\x03" "KYOBVROb";
+const char glyph126[] PROGMEM = "\x17" "F^IUISJPLONOPPTSVTXTZS[Q RISJQLPNPPQTTVUXUZT[Q[O";
+const char glyph127[] PROGMEM = "\x22" "JZJFJ[K[KFLFL[M[MFNFN[O[OFPFP[Q[QFRFR[S[SFTFT[U[UFVFV[W[WFXFX[Y[YFZFZ[";
+
+const char *const font[96] PROGMEM =
+{
+	glyph032, glyph033, glyph034, glyph035, glyph036, glyph037, glyph038, glyph039, 
+	glyph040, glyph041, glyph042, glyph043, glyph044, glyph045, glyph046, glyph047, 
+	glyph048, glyph049, glyph050, glyph051, glyph052, glyph053, glyph054, glyph055, 
+	glyph056, glyph057, glyph058, glyph059, glyph060, glyph061, glyph062, glyph063, 
+	glyph064, glyph065, glyph066, glyph067, glyph068, glyph069, glyph070, glyph071, 
+	glyph072, glyph073, glyph074, glyph075, glyph076, glyph077, glyph078, glyph079, 
+	glyph080, glyph081, glyph082, glyph083, glyph084, glyph085, glyph086, glyph087, 
+	glyph088, glyph089, glyph090, glyph091, glyph092, glyph093, glyph094, glyph095, 
+	glyph096, glyph097, glyph098, glyph099, glyph100, glyph101, glyph102, glyph103, 
+	glyph104, glyph105, glyph106, glyph107, glyph108, glyph109, glyph110, glyph111, 
+	glyph112, glyph113, glyph114, glyph115, glyph116, glyph117, glyph118, glyph119, 
+	glyph120, glyph121, glyph122, glyph123, glyph124, glyph125, glyph126, glyph127
+	
+};
