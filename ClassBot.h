@@ -78,7 +78,7 @@ static float stepsDist = stepsPerRev / (wheelDiameter *PI);
 class ClassBot
 {
     public:
-        ClassBot();
+        ClassBot(int l1 = 9, int l2 = 7, int l3 = 8, int l4 = 6, int r1 = 2, int r2 = 4, int r3 = 3, int r4 = 5, int servoPin = A0);
 
         void penDown();
         void penUp();

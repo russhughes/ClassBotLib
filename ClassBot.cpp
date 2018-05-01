@@ -5,13 +5,14 @@
 // initalize ClassBot
 //
 
-ClassBot::ClassBot()
-{
-    leftMotor = new AccelStepper(AccelStepper::HALF4WIRE, 9, 7, 8, 6, true);  // d'oh! -- Classbot 1.0 board is backwards
-    rightMotor = new AccelStepper(AccelStepper::HALF4WIRE, 2, 4, 3, 5, true);
 
-    pinMode(A0, OUTPUT);
-    penServo.attach(A0);
+ClassBot::ClassBot(int l1, int l2, int l3, int l4, int r1, int r2, int r3, int r4, int servoPin)
+{
+    leftMotor = new AccelStepper(AccelStepper::HALF4WIRE, l1, l2, l3, l4, true);
+    rightMotor = new AccelStepper(AccelStepper::HALF4WIRE, r1, r2, r3, r4, true);
+
+    pinMode(servoPin, OUTPUT);
+    penServo.attach(servoPin);
     penUp();
 
     leftMotor->setMaxSpeed(MAX_SPEED);

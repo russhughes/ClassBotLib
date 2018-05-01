@@ -15,7 +15,7 @@ void setup()
 {
     ClassBot bot;
 
-    bot.writeText("Hello!", 2);
+    bot.writeText((char *)"Hello!", 2);
     bot.done();
 }
 
