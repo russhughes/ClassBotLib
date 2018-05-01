@@ -19,3 +19,7 @@ ehthumbs.db
 Thumbs.db
 *~
 .*~
+
+# vscode 
+######################
+.vscode
