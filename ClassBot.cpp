@@ -5,7 +5,6 @@
 // initalize ClassBot
 //
 
-
 ClassBot::ClassBot(int l1, int l2, int l3, int l4, int r1, int r2, int r3, int r4, int servoPin)
 {
     leftMotor = new AccelStepper(AccelStepper::HALF4WIRE, l1, l2, l3, l4, true);
@@ -153,12 +152,40 @@ double ClassBot::bearing(double a1, double a2, double b1, double b2)
     return theta * RAD2DEG;
 }
 
+//
+// turn to given heading
+//
+
+void ClassBot::turnTo(float heading) {
+    long dh;
+
+    if (botH != heading) {
+        dh = botH - heading;
+        if (dh > 180) {
+            dh = dh - 360;
+        }
+
+        if (dh < -180) {
+            dh = dh + 360;
+        }
+
+        if (dh < 0) {
+            turnRight(abs(dh));
+        }
+
+        if (dh > 0) {
+            turnLeft(dh);
+        }
+        botH = heading;
+    }
+}
+
 // We know where we are and we want to go to x, y
 // find the direction we need to turn to and then 
 // calculate the distance from our location to the 
 // destination using the Pythagorean theorem.
 
-void ClassBot::moveTo(long x, long y, float scale, boolean penIsUp)
+void ClassBot::moveTo(long x, long y, boolean penIsUp)
 {
     double b;
     double r;
@@ -192,7 +219,7 @@ void ClassBot::moveTo(long x, long y, float scale, boolean penIsUp)
         if (!penIsUp)                       // if the pen is not supposed to be up, set it down
             penDown();
 
-        moveForward(r * scale);             // move forward the distance * the scale
+        moveForward(r);                     // move forward the distance 
 
         botX = x;                           // keep track of our new position
         botY = y;
@@ -236,13 +263,13 @@ void ClassBot::drawChar(char ch, float scale)
             vX -= 'R';
             vY -= 'R';
 
-            moveTo(vX + xofs + x, yofs + vY + y, scale, pup);		// otherwise move to the X, Y coordinate
+            moveTo((vX + xofs + x) * scale, (yofs + vY + y) * scale, pup);		// otherwise move to the X, Y coordinate
             if (pup)                                      		// if the pen was up, set the flag to down
                 pup = false;
         }
     }
 
-    moveTo(x + width, y, scale, true); 			// And move to the position for the next character
+    moveTo((x + width) * scale, y * scale, true); 			// And move to the position for the next character
 }
 
 //
