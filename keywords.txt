@@ -19,6 +19,7 @@ backward    KEYWORD2
 turnLeft    KEYWORD2
 turnRight   KEYWORD2
 
+turnTo  KEYWORD2
 moveTo  KEYWORD2
 drawCircle  KEYWORD2
 drawEllipse KEYWORD2
