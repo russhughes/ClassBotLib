@@ -185,7 +185,7 @@ void ClassBot::turnTo(float heading) {
 // calculate the distance from our location to the 
 // destination using the Pythagorean theorem.
 
-void ClassBot::moveTo(long x, long y, boolean penIsUp)
+void ClassBot::moveTo(long x, long y, boolean penIsUp, float scale)
 {
     double b;
     double r;
@@ -219,7 +219,7 @@ void ClassBot::moveTo(long x, long y, boolean penIsUp)
         if (!penIsUp)                       // if the pen is not supposed to be up, set it down
             penDown();
 
-        moveForward(r);                     // move forward the distance 
+        moveForward(r * scale);                     // move forward the distance 
 
         botX = x;                           // keep track of our new position
         botY = y;
@@ -263,13 +263,13 @@ void ClassBot::drawChar(char ch, float scale)
             vX -= 'R';
             vY -= 'R';
 
-            moveTo((vX + xofs + x) * scale, (yofs + vY + y) * scale, pup);		// otherwise move to the X, Y coordinate
+            moveTo(vX + xofs + x, yofs + vY + y, pup, scale);		// otherwise move to the X, Y coordinate
             if (pup)                                      		// if the pen was up, set the flag to down
                 pup = false;
         }
     }
 
-    moveTo((x + width) * scale, y * scale, true); 			// And move to the position for the next character
+    moveTo(x + width, y, true, scale); 			// And move to the position for the next character
 }
 
 //

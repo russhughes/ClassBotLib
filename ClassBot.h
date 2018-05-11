@@ -87,7 +87,8 @@ class ClassBot
         void turnLeft(float degrees);
         void turnRight(float degrees);
         void turnTo(float heading);
-        void moveTo(long x, long y, boolean penUp);
+        void moveTo(long x, long y, boolean penUp=true, float scale = 1);
+               
         void drawChar(char ch, float scale);
         void writeText(char *str, float scale);
         void done();
