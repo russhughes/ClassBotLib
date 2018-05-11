@@ -138,3 +138,5 @@ PGM_P const font[96] PROGMEM =
     glyph120, glyph121, glyph122, glyph123, glyph124, glyph125, glyph126, glyph127
 
 };
+
+#define FONT_INCLUDED

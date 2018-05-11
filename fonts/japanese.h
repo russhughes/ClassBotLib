@@ -245,3 +245,5 @@ const char *const font[193] PROGMEM =
 	glyph216, glyph217, glyph218, glyph219, glyph220, glyph221, glyph222, glyph223, 
 	glyph224
 };
+
+#define FONT_INCLUDED

@@ -25,38 +25,139 @@ static const double RAD2DEG = 57.2957795130823209;
 // havn't tested all of these but they should work if they
 // fit in memory.
 
-// #include "fonts/astrology.h"
+#ifdef FONT_ASTROLOGY
+#include "fonts/astrology.h"
+#endif
+
+#ifdef FONT_CURSIVE
 #include "fonts/cursive.h"
-// #include "fonts/cyrilc_1.h"
-// #include "fonts/cyrillic.h"
-// #include "fonts/futural.h"
-// #include "fonts/futuram.h"
-// #include "fonts/gothgbt.h"
-// #include "fonts/gothgrt.h"
-// #include "fonts/gothiceng.h"
-// #include "fonts/gothicger.h"
-// #include "fonts/gothicita.h"
-// #include "fonts/gothitt.h"
-// #include "fonts/greek.h"
-// #include "fonts/greekc.h"
-// #include "fonts/greeks.h"
-// #include "fonts/japanese.h"
-// #include "fonts/markers.h"
-// #include "fonts/mathlow.h"
-// #include "fonts/mathupp.h"
-// #include "fonts/meteorology.h"
-// #include "fonts/music.h"
-// #include "fonts/rowmand.h"
-// #include "fonts/rowmans.h"
-// #include "fonts/rowmant.h"
-// #include "fonts/scriptc.h"
-// #include "fonts/scripts.h"
-// #include "fonts/symbolic.h"
-// #include "fonts/timesg.h"
-// #include "fonts/timesi.h"
-// #include "fonts/timesib.h"
-// #include "fonts/timesr.h"
-// #include "fonts/timesrb.h"
+#endif
+
+#ifdef FONT_CYRILC_1
+#include "fonts/cyrilc_1.h"
+#endif
+
+#ifdef FONT_CYRILLIC
+#include "fonts/cyrillic.h"
+#endif
+
+#ifdef FONT_FUTURAL
+#include "fonts/futural.h"
+#endif
+
+#ifdef FONT_FUTURAM
+#include "fonts/futuram.h"
+#endif
+
+#ifdef FONT_GOTHGBT
+#include "fonts/gothgbt.h"
+#endif
+
+#ifdef FONT_GOTHGRT
+#include "fonts/gothgrt.h"
+#endif
+
+#ifdef FONT_GOTHICENG
+#include "fonts/gothiceng.h"
+#endif
+
+#ifdef FONT_GOTHICGER
+#include "fonts/gothicger.h"
+#endif
+
+#ifdef FONT_GOTHICITA
+#include "fonts/gothicita.h"
+#endif
+
+#ifdef FONT_GOTHITT
+#include "fonts/gothitt.h"
+#endif
+
+#ifdef FONT_GREEKC
+#include "fonts/greekc.h"
+#endif
+
+#ifdef FONT_GREEK
+#include "fonts/greek.h"
+#endif
+
+#ifdef FONT_GREEKS
+#include "fonts/greeks.h"
+#endif
+
+#ifdef FONT_JAPANESE
+#include "fonts/japanese.h"
+#endif
+
+#ifdef FONT_MARKERS
+#include "fonts/markers.h"
+#endif
+
+#ifdef FONT_MATHLOW
+#include "fonts/mathlow.h"
+#endif
+
+#ifdef FONT_MATHUPP
+#include "fonts/mathupp.h"
+#endif
+
+#ifdef FONT_METEOROLOGY
+#include "fonts/meteorology.h"
+#endif
+
+#ifdef FONT_MUSIC
+#include "fonts/music.h"
+#endif
+
+#ifdef FONT_ROWMAND
+#include "fonts/rowmand.h"
+#endif
+
+#ifdef FONT_ROWMANS
+#include "fonts/rowmans.h"
+#endif
+
+#ifdef FONT_ROWMANT
+#include "fonts/rowmant.h"
+#endif
+
+#ifdef FONT_SCRIPTC
+#include "fonts/scriptc.h"
+#endif
+
+#ifdef FONT_SCRIPTS
+#include "fonts/scripts.h"
+#endif
+
+#ifdef FONT_SYMBOLIC
+#include "fonts/symbolic.h"
+#endif
+
+#ifdef FONT_TIMESG
+#include "fonts/timesg.h"
+#endif
+
+#ifdef FONT_TIMESIB
+#include "fonts/timesib.h"
+#endif
+
+#ifdef FONT_TIMESI
+#include "fonts/timesi.h"
+#endif
+
+#ifdef FONT_TIMESRB
+#include "fonts/timesrb.h"
+#endif
+
+#ifdef FONT_TIMESR
+#include "fonts/timesr.h"
+#endif
+
+// if no font was selected default to rowmans
+
+#ifndef FONT_INCLUDED
+#include "fonts/rowmans.h"
+#endif
 
 #define MAX_SPEED 1000
 #define LEFT 0
