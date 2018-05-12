@@ -1,18 +1,16 @@
 # ClassBotLib
 
-This is an arduino library to control a [small 3D printed drawing robot](https://www.thingiverse.com/thing:1104889) based on [MakersBox's](https://www.thingiverse.com/MakersBox) [Arduino Chassis for Drawing Robot](https://www.thingiverse.com/thing:1091401) and a [custom Arduino Shield](https://easyeda.com/EZG0bble/ClassBot_copy_copy-b2797f6d387242cd86f59364dd86db91) to drive a pair of 28BYJ-48 stepper motors using two ULN2003 driver IC's. The shield also has room for a SPI Serial Ram Chip and a I2C Serial EEPROM but they are not used in this library.  Take a look at the [TinyBasic Plus ClassBot Edition Github repo](https://github.com/russhughes/TinyBasicPlus) for another way to run the bot.
+ClassBotLib is an arduino library to control a small [3D printed drawing robot](https://www.thingiverse.com/thing:1104889) based on [MakersBox's](https://www.thingiverse.com/MakersBox) [Arduino Chassis for Drawing Robot](https://www.thingiverse.com/thing:1091401). In my classes I use a custom [Arduino Shield](https://easyeda.com/EZG0bble/ClassBot_copy_copy-b2797f6d387242cd86f59364dd86db91) to drive a pair of 28BYJ-48 stepper motors using two ULN2003 driver IC's. The shield has room for a SPI Serial Ram Chip and a I2C Serial EEPROM that are not used in this library.  Take a look at the [TinyBasic Plus ClassBot Edition Github repo](https://github.com/russhughes/TinyBasicPlus) for another way to run the bot.
 
-Requires these Arduino Libraries:
+####Requires the AccelStepper Library:
 - http://www.airspayce.com/mikem/arduino/AccelStepper/
 
-# Library Functions
+# Using the Library
 
-Use a #define statement to select which of the  [Hershey vector fonts](https://en.wikipedia.org/wiki/Hershey_fonts) to use for drawing text. If you do not select a font (or mispell the name of the font) FONT_ROWMANS will be used by default. This must be done before including the "ClassBot.h" header file.
-
+A #define statement is used to select which of the [Hershey vector fonts](https://en.wikipedia.org/wiki/Hershey_fonts) to use for drawing text. If you do not select a font (or mispell the name of the font) FONT_ROWMANS will be used by default. This must be done before including the "ClassBot.h" header file.
 
     #define FONT_SCRIPTS
     #include "ClassBot.h"
-
 
 #### Available Hershey fonts
 
@@ -78,7 +76,7 @@ Lower the pen to the paper.
 
 Raise the pen off the paper
 
-## moveForard
+## moveForward
 `void moveForward(float distance);`
 
 Move forward `distance` milimeters.
@@ -109,12 +107,12 @@ Turn to face `heading` compass heading in degrees.
 Move to cartesian coordinates `x,y` with the pen up or down as specified by `penUp`. `scale` sets the coordinate size in milimeters and defaults to 1mm.
 
 ## drawChar       
-`void drawChar(char ch, float scale);`
+`void drawChar(char ch, float scale = 1);`
 
 Draw the character `ch` at the `scale` size.
 
 ## writeText
-`void writeText(char *str, float scale);`
+`void writeText(char *str, float scale = 1);`
 
 Write the string `str` at the `scale` size 
 

@@ -190,8 +190,8 @@ class ClassBot
         void turnTo(float heading);
         void moveTo(long x, long y, boolean penUp=true, float scale = 1);
                
-        void drawChar(char ch, float scale);
-        void writeText(char *str, float scale);
+        void drawChar(char ch, float scale = 1);
+        void writeText(char *str, float scale = 1);
         void done();
 
         void setX(long x);
