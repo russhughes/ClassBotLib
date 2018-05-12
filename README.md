@@ -1,5 +1,5 @@
 
-![](https://raw.githubusercontent.com/russhughes/ClassBotLib/master/doc/images/hello.jpg)
+![](https://github.com/russhughes/ClassBotLib/blob/master/doc/images/hello.jpg)
 
 # ClassBotLib
 
