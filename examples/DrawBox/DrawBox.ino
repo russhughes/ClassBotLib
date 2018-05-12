@@ -16,8 +16,7 @@ void setup()
         bot.moveForward(side);
         bot.turnLeft(90);
     }
-  
-    bot.penUp();    
+ 
     bot.done();
 }
 

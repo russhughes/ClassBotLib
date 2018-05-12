@@ -6,8 +6,8 @@
 #include "ClassBot.h"
 
 int radiusX = 30;
-int radiusY = 30;
-int sides = 20;
+int radiusY = 30;       
+int sides = 20;         // polygon number of sides
 
 void setup()
 {

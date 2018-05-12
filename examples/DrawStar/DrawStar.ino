@@ -1,6 +1,6 @@
 
 //
-// Draw a box
+// Draw a star
 //
 
 #include "ClassBot.h"
