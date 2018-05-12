@@ -53,7 +53,7 @@ Use a #define statement to select which of the  [Hershey vector fonts](https://e
 ## ClassBot
 `ClassBot::ClassBot(int l1 = 9, int l2 = 7, int l3 = 8, int l4 = 6, int r1 = 2, int r2 = 4, int r3 = 3, int r4 = 5, int ServoPin = A0);`
 
-Constructor, create's the ClassBot object and configures the library.
+Constructor, create's the ClassBot object and configures the library. Be sure to set your stepper motor pins if your bot is wired differently then the default.
 
 #### Parameters
 | Parameter | Description | Default Value |
