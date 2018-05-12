@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/russhughes/ClassBotLib/master/doc/images/hello.jpg)
+
 # ClassBotLib
 
 ClassBotLib is an arduino library to control a small [3D printed drawing robot](https://www.thingiverse.com/thing:1104889) based on [MakersBox's](https://www.thingiverse.com/MakersBox) [Arduino Chassis for Drawing Robot](https://www.thingiverse.com/thing:1091401). In my classes I use a custom [Arduino Shield](https://easyeda.com/EZG0bble/ClassBot_copy_copy-b2797f6d387242cd86f59364dd86db91) to drive a pair of 28BYJ-48 stepper motors using two ULN2003 driver IC's. The shield has room for a SPI Serial Ram Chip and a I2C Serial EEPROM that are not used in this library.  Take a look at the [TinyBasic Plus ClassBot Edition Github repo](https://github.com/russhughes/TinyBasicPlus) for another way to run the bot.
