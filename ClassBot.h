@@ -169,7 +169,7 @@ static const double RAD2DEG = 57.2957795130823209;
 #define PEN_DOWN_ANGLE 150 - 90
 
 static int stepsPerRev = 4076;                      // stepper steps per revloution
-static const int backlashComp = 12;                 // compensation for gear lash 
+static const int backlashComp = 20;                 // compensation for gear lash 
 static float wheelDiameter =  65;				    // mm (increase = spiral out)
 static int wheelBase = 112; 					    // mm (increase = spiral in)
 
