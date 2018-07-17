@@ -6,36 +6,36 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-ClassBot    KEYWORD1
+ClassBot	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-penDown KEYWORD2
-penUp   KEYWORD2
-forward KEYWORD2
-backward    KEYWORD2
-turnLeft    KEYWORD2
-turnRight   KEYWORD2
+penDown	KEYWORD2
+penUp	KEYWORD2
+forward	KEYWORD2
+backward	KEYWORD2
+turnLeft	KEYWORD2
+turnRight	KEYWORD2
 
-turnTo  KEYWORD2
-moveTo  KEYWORD2
-drawCircle  KEYWORD2
-drawEllipse KEYWORD2
-drawChar    KEYWORD2
-writeText   KEYWORD2
+turnTo	KEYWORD2
+moveTo	KEYWORD2
+drawCircle	KEYWORD2
+drawEllipse	KEYWORD2
+drawChar	KEYWORD2
+writeText	KEYWORD2
 
-done    KEYWORD2 
+done	KEYWORD2 
 
-setX    KEYWORD2
-setY    KEYWORD2
-setH    KEYWORD2
+setX	KEYWORD2
+setY	KEYWORD2
+setH	KEYWORD2
 
-getPen  KEYWORD2
-getX    KEYWORD2
-getY    KEYWORD2
-getH    KEYWORD2
+getPen	KEYWORD2
+getX	KEYWORD2
+getY	KEYWORD2
+getH	KEYWORD2
 
 ######################################
 # Constants (LITERAL1)
